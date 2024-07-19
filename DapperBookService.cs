@@ -6,7 +6,7 @@ namespace BookManagementSystemwithDapper
     public class DapperBookService : IBookService
     {
         // Connection string for MySQL database
-        private string connectionString = "Server=localhost;Port=3306;Database=Library;Uid=root;Pwd=isaj10;";
+        private string connectionString = "Server=localhost;Database=BookDB;User ID=root;Password=root;";
 
         // Method to insert a new book into the database
         public void InsertNewBook()
